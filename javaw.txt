@@ -1,0 +1,79 @@
+creamos una cuenta en github.
+cuenta en git hub.
+usuario Carlosyz contra: carlos123.
+creamos el repositorio java web.
+clonar copy clone to clipboard.
+luego crear la carpeta EGCC.
+En la consola insertamos el comando git clone.
+clic derecho y pegar, luego enter.
+clone-> clonar.
+push->subir en la nube.
+pull->bajar de la nube.
+
+comando git status -> Se verifica si se realizó algún cambio.
+comando git pull origin master -> descarga los cambios que hayas
+hechos en la nube.
+
+//Guardando cambios
+comando git add . -> preparamos el archivo para subir
+comando git commit -m "Actualizando readme"-> actualizando el commit
+comando git push origin master -> subiendo a la nube
+
+Spring 
+
+
+
+En eclipse 
+clic en window
+preferences
+server
+runtime Environmet
+
+add selecccionar v8.0
+create server
+buscar apache
+
+
+Aplicaciones Web Java
+
+- Se necesita un servidor
+   *Contenedor de servlets y JSP
+	-> Apache Tomcat
+   *Servidores JAVA EE
+	-> Glass Fish
+	-> Oracle Weblogic
+	-> Geronimo
+	-> JBoos
+	-> WebLogic
+
+- Funcionamiento Servidor
+ APlicacion web 
+ existen 3 métodos con la cual se puede responder al request del
+browser:
+* doGet -> solo responde get
+* doPost -> solo responde post
+* service -> responde el get,post.
+en public class App extends Servlet{}
+
+
+           |
+           |request(Get/Post)
+           ?
+ --------Service------º
+ |         |          |
+ |         |          |
+ ?         |          ?
+doget      |         dopost
+ |         |          |
+ |-------->? <--------+
+           |
+           |response
+           |
+           ?
+
+En eclipse 
+crear un proyecto Dynamic WEb project
+
+
+Entender bien el servlet
+
